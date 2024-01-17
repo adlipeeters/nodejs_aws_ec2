@@ -7,5 +7,5 @@ app.listen(5001, () => {
 })
 
 app.get("/", (req, res) => {
-    res.json("Hello from Api");
+    res.json("Hello AWS EC2 with Node.js");
 })
